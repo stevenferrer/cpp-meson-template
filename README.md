@@ -1,11 +1,11 @@
-# meson-example
+# cpp-meson-example
 
-meson example with c++.
+C++ template repository with Meson build.
 
 ## Setup
 
 ```sh
-meson setup build [--reconfigure]
+meson setup build [--wipe]
 ```
 
 ## Build

@@ -5,17 +5,23 @@ meson example with c++.
 ## Setup
 
 ```sh
-$ meson setup builddir
+meson setup build [--reconfigure]
 ```
 
 ## Build
 
 ```sh
-$ meson compile -c builddir
+meson compile -C build
 ```
 
 ## Test
 
 ```sh
-$ meson test -c builddir
+meson test -C build
+```
+
+## Clean
+
+```sh
+ninja -C build clean
 ```
